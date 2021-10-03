@@ -7,14 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Images Google</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="navmenu">
-            <a class="navitems" href="index.html" class="menu_link">Search</a>
-            <a class="navitems" href="advancedsearch.html" class="menu_link">Advansed Search</a>
+            <a class="navitems" href="index.html">Search</a>
+            <a class="navitems" href="advancedsearch.html">Advansed Search</a>
         </div>
     </div>
 
@@ -31,7 +32,7 @@
         <div class="container">
             <div class="search_form">
                 <form class="form" action="https://www.google.com/images" method="GET" role="search">
-                    <input class="form_input" type="text" name="q">
+                    <input class="form_input" type="text" name="q" required>
                     <input class="form_submit" type="submit" value="Google Search">
                 </form>
             </div>
